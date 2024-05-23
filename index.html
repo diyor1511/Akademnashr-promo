@@ -4,67 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
     <!-- WEB HEADER -->
-    <header>
+    <header class="site-header">
         <a href="index.html">
         <img src="/img/Akademlogo.jpg" alt="Akademnashr logo" width="100" height="90">
         </a>
            <nav>
                <ul>
-                    <li><a href="#">Main</a></li>
-                    <li><a href="#">Books</a></li>
-                    <li><a href="#">Promotions</a></li>
-                    <li> <a href="#">Contracts</a></li>
-
-
+                    <li><a class="sitenav-link" href="#">Main</a></li>
+                    <li><a class="sitenav-link" href="#">Books</a></li>
+                    <li><a class="sitenav-link" href="#">promotions</a></li>
+                    <li><a class="sitenav-link" href="#">Contacts</a></li>
                </ul>
            </nav>
-        <a href="#">Register</a>
+        <a class="main-link" href="#">Registeration</a>
     </header>
 
-    <hr>
 
     <main>
         <!-- HERO -->
-        <section>
-            <div>
-                <h2>Fundamentals of programming In Phyton</h2>
-                <p>
+        <section class="hero">
+            <div class="hero-content">
+                <hr class="orange-line">
+                <h2 class="hero-heading">Fundamentals of programming In Phyton</h2>
+                <p class="hero-text">
                     Fundamental programming concepts include a set of basic principles and related terminologies that programmers follow to write code that is simple to understand, modular, and efficient. The basic programming concepts include variables, basic control structures, data structures, object-oriented programming, troubleshooting and debugging, and various programming tools. These concepts are similar across various programming languages, such as Python, C++, C, and Java.
                 </p>
-                <a href="#">Order</a>
+                <a class="main-link" href="#">Order</a>
             </div>
             <img src="/img/python-book.jpg" alt="" width="510" height="510" srcset="">
         </section>
-        <hr>
-
 
         <!-- FEATURES -->
-        <section>
-            <h2>Why only Phyton ?</h2>
+        <section class="features">
+            <hr class="orange-line">
+            <h2 class="features-heading">Why is only Phyton ?</h2>
             <ul>
                 <li>
-                    <img src="/img/icon_card.svg" alt="Ikonka" width="56" height="56">
-                    <h3>>Easy Ordering</h3>
-                    <p>
+                    <div class="feature-icon-wrapper">
+                        <img class="hero-img" src="/img/icon_card.svg" alt="Ikonka" width="56" height="56">
+                    </div>
+                    <h3 class="feature-title">Easy Ordering</h3>
+                    <p class="feature-info">
                         You can book your favourite book in an easy way on Akademnashr.uz
                     </p>
                 </li>
                 <li>
-                    <img src="/img/icon_vector.svg" alt="Ikonka" width="56" height="56">
-                    <h3>The best Books</h3>
-                    <p>
+                    <div class="feature-icon-wrapp">
+                        <img src="/img/icon_vector.svg" alt="Ikonka" width="56" height="56">
+                    </div>
+                    <h3 class="feature-title">The best Books</h3>
+                    <p class="feature-info">
                         Trendy and best-seller books, you can find different types of books with a large circle of audience
                     </p>
                 </li>
                 <li>
-                    <img src="/img/icon_card3.svg" alt="Ikonka" width="56" height="56">
-                    <h3>Fast ORderinng</h3>
-                    <p>
+                    <div class="feature-icon-wrapper">
+                        <img src="/img/icon_card3.svg" alt="Ikonka" width="56" height="56">
+                    </div>
+                    <h3 class="feature-title">Fast Orderinng</h3>
+                    <p class="feature-info">
                         delivering to anywhere in Uzbekistan within 3days, for international delivering within 10 days
                     </p>
                 </li>
@@ -73,24 +76,24 @@
 
 
         <!-- PROMOTION -->
-        <section>
-            <div>
-                <h2>Great promotionss on children's books</h2>
-                <p>
+        <section class="promo">
+            <div class="promo-content">
+                <h2 class="promo-heading">Great promotionss on children's books</h2>
+                <p class="promo-text">
                     Stories, poems, advanterous poets, various gudies to broden your thinking
                 </p>
-                <p>
-                    You can purchase an entire collectoin of <strong>50 books</strong> on discount <strong>350.000 sum</strong> (Actually 383.000 sum)
+                <p class="promo-text">
+                    You can purchase an entire collectoin of <strong class="promo-highlight">50 books</strong> on discount <strong class="promo-highlight"x >350.000 sum</strong> (Actually 383.000 sum)
                 </p>
-                <a href="#">Order</a>
+                <a class="main-link" href="#">Order</a>
             </div>
-            <img src="/img/sale-img-1.jpg" alt="The collections of books" width="440" height="440">
+            <img class="promo-img" src="/img/sale-img-1.jpg" alt="The collections of books" width="440" height="440">
         </section>
     </main>
 
 
     <!-- SITE FOOTER -->
-    <footer>
+    <footer class="site-footer">
         <a href="index.html">
             <img src="/img/Akademlogo.jpg" alt="Akademnashr logo" width="100" height="90">
         </a>
@@ -112,6 +115,39 @@
                 </a>
             </li>
         </ul>
+
+        <hr class="site-footer-divider">
+
+        <!-- Links -->
+        <div>
+            <ul class="site-footer-links">
+                <li><a href="#">Main</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+
+            <ul class="site-footer-links">
+                <li><a href="#">Scientific publications</a></li>
+                <li><a href="#">Popular scientific publications</a></li>
+                <li><a href="#">Educational publications</a></li>
+                <li><a href="#">Dictionaries</a></li>
+                <li><a href="#">Literary and artistic publications</a></li>
+                <li><a href="#">For kids</a></li>
+            </ul>
+
+            <ul class="site-footer-links">
+                <li><a href="#">Most asked questions</a></li>
+                <li><a href="#">About delivery</a></li>
+                <li><a href="#">About Payment methods</a></li>
+            </ul>
+
+            <ul class="site-footer-links">
+                <li><a href="#">Free vacancies</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
