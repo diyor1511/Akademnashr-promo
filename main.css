@@ -1,9 +1,20 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
 /* SITE HEADER */
 .site-header {
     background-color: #fff;
 }
 
 /* SITE NAV */
+.sitenav-list {
+    list-style: none;
+}
+
 .sitenav-link {
     font-size: 13px;
     font-weight: 500;
@@ -54,13 +65,6 @@
     letter-spacing: 0.5px;
 }
 
-.hero-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-}
-
-
 
 /* FEATURES */
 .features {
@@ -71,7 +75,6 @@
     width: 440px;
     font-size: 72px;
     line-height: 1.5;
-    letter-spacing: 0.5px;
 }
 
 .feature-icon-wrapper {
@@ -84,12 +87,6 @@
     font-size: 24px;
     letter-spacing: 1.2;
     line-height: 0.5px;
-}
-
-.feature-info {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
 }
 
 
@@ -107,11 +104,6 @@
 .promo-heading {
     font-size: 40px;
     line-height: 48px;
-}
-
-.promo-text {
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .promo-highlight {
@@ -137,13 +129,17 @@
     background-color: rgba(37, 36, 32, 0.5);
 }
 
-.site-footer-links {
+.site-footer-medialinks {
     list-style: none;
 }
 
-.site-footer-links a {
-    font-size: 16px;
+.site-footer-links {
+    list-style: none;
+    width: 224px;
     line-height: 19px;
+}
+
+.site-footer-links a {
     text-decoration: none;
     color: #252420;
 }
