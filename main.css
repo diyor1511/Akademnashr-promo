@@ -8,10 +8,20 @@ body {
 /* SITE HEADER */
 .site-header {
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.site-header-act {
+    display: flex;
+    align-items: center;
+}
+
 
 /* SITE NAV */
 .sitenav-list {
+    display: flex;
     list-style: none;
 }
 
@@ -40,6 +50,9 @@ body {
 
 /* hERO */
 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
 }
@@ -64,6 +77,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.5px;
 }
+
+
 
 
 /* FEATURES */
