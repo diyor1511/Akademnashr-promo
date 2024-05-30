@@ -121,7 +121,7 @@ body {
     justify-content: space-between;
     li{
         color: red;
-        list-style: none
+        list-style: none;
     }
 }
 
