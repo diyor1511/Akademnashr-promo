@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     line-height: 1.5;
@@ -82,8 +83,17 @@ body {
 
 
 /* FEATURES */
-.features {
-    width: 340px;
+
+
+#feature-father{
+    width: 1440px;
+}
+#featureee{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
 }
 
 .features-heading {
@@ -104,7 +114,16 @@ body {
     line-height: 0.5px;
 }
 
-
+.features-list{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li{
+        color: red;
+        list-style: none
+    }
+}
 
 /* PROMO */
 .promo {
