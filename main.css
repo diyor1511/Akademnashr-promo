@@ -5,6 +5,11 @@ body {
     letter-spacing: 0.5px;
 }
 
+*:focus {
+    outline: 2px dotted #ff7500;
+    offset: 3px;
+}
+
 /* LOGO */
 
 .logo {
@@ -51,6 +56,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .site-header-act {
@@ -63,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
 
 .sitenav-link {
@@ -86,12 +95,16 @@ body {
 
 /* MAIN LINK */
 .main-link {
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 24px;
     font-size: 13px;
     color: #fff;
     line-height: 15px;
     background-color: #ff7500;
     text-decoration: none;
     transition:opacity 0.4 ease;
+    border-radius: 4px;
 }
 
 .main-link:hover {
@@ -100,6 +113,8 @@ body {
 
 /* HERO */
 .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,10 +130,12 @@ body {
 .hero-image {
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 
 .orange-line {
     width: 80px;
+    border: 0;
     height: 3px;
     background-color: #ff7500;
 }
@@ -130,6 +147,11 @@ body {
 }
 
 /* FEATURE SITE */
+#feature-father {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
 .features-heading {
     width: 440px;
     font-size: 72px;
@@ -151,6 +173,10 @@ body {
 }
 
 .feature-icon-wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
@@ -164,6 +190,7 @@ body {
 
 .features-list{
     list-style: none;
+    padding: 0;
 }
 
 /* PROMO SITE */
@@ -171,6 +198,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 12px;
     background-color: #252420;
     color: #fff;
 }
@@ -190,6 +218,7 @@ body {
 }
 
 .promo-img {
+    border-radius: 12px;
     width: 440px;
     height: 440px;
     object-fit: cover;
@@ -197,7 +226,13 @@ body {
 
 /* FOOTER SITE */
 .site-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
+}
+
+.site-footer ul {
+    padding: 0;
 }
 
 .site-footer-top {
@@ -209,6 +244,7 @@ body {
 
 .site-footer-divider {
     height: 2px;
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
@@ -216,6 +252,7 @@ body {
     list-style: none;
     display: flex;
     gap: 10px;
+    padding: 0;
 }
 
 
@@ -233,7 +270,7 @@ body {
     color: #ff7500;
 }
 
-.site-footer-links a:focus {
+.site-footer-links a:active {
     opacity: 0.6;
 }
 
