@@ -68,6 +68,7 @@ body {
 
 /* SITE NAV */
 .sitenav-list {
+    margin: 0;
     display: flex;
     align-items: center;
     list-style: none;
@@ -83,6 +84,14 @@ body {
     text-decoration: none;
     color: black;
     transition: 0.4s ease;
+}
+
+.sitenav-item {
+    margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+    margin-right: 0;
 }
 
 .sitenav-link:hover {
@@ -135,15 +144,24 @@ body {
 
 .orange-line {
     width: 80px;
+    margin: 0;
+    margin-bottom: 40px;
     border: 0;
     height: 3px;
     background-color: #ff7500;
 }
 
 .hero-heading {
+    margin: 0;
+    margin-bottom: 24px;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+}
+
+.hero-text {
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 /* FEATURE SITE */
@@ -167,6 +185,8 @@ body {
 }
 
 .features-heading {
+    margin-top: 0;
+    margin-bottom: 72px;
     width: 440px;
     font-size: 72px;
     line-height: 1.5;
@@ -189,6 +209,7 @@ body {
 }
 
 .features-list{
+    margin: 0;
     list-style: none;
     padding: 0;
 }
@@ -204,6 +225,8 @@ body {
 }
 
 .promo-content {
+    margin-top: 0;
+    margin-bottom: 24px;
     width: 390px;
     margin: 3px;
 }
@@ -244,6 +267,9 @@ body {
 
 .site-footer-divider {
     height: 2px;
+    margin-bottom: 64px;
+    margin-top: 40px;
+
     border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
